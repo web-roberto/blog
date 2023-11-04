@@ -15,10 +15,10 @@ export default function Navbar() {
                     <Link className="text-white/90 hover:text-white" href="https://courses.davegray.codes/">
                         <FaLaptop />
                     </Link>
-                    <Link className="text-white/90 hover:text-white" href="https://github.com/gitdagray">
+                    <Link className="text-white/90 hover:text-white" href="https://github.com/web-roberto">
                         <FaGithub />
                     </Link>
-                    <Link className="text-white/90 hover:text-white" href="https://twitter.com/yesdavidgray">
+                    <Link className="text-white/90 hover:text-white" href="https://twitter.com/Roberto83775382">
                         <FaTwitter />
                     </Link>
                 </div>

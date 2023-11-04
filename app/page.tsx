@@ -3,6 +3,7 @@ import MyProfilePic from './components/MyProfilePic'
 
 export const revalidate = 86400
 //export const revalidate = 0
+// antes de <Post     @ts-expect-error Server Component
 
 export default function Home() {
   return (
@@ -14,7 +15,6 @@ export default function Home() {
           I'm <span className="font-bold">Roberto </span>.
         </span>
       </p>
-      @ts-expect-error Server Component
       <Posts />
     </div>
   )
